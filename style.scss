@@ -75,6 +75,7 @@ main {
             background: #222;
             border-radius: 5px;
             padding: var(--padding-s);
+            transition: all 0.7s cubic-bezier(0.25, 0.1, 0.25, 1);
 
             h4{
                 font-weight: 500;
@@ -131,6 +132,11 @@ main {
                     }
                 }
             }
+        }
+
+        .hover-over{
+            border: 2px dashed var(--primary-text-color);
+            scale: 1.03;             
         }
     }
 }

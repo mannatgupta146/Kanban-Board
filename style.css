@@ -69,6 +69,7 @@ main section.board .task-column {
   background: #222;
   border-radius: 5px;
   padding: var(--padding-s);
+  transition: all 0.7s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 main section.board .task-column h4 {
   font-weight: 500;
@@ -115,4 +116,8 @@ main section.board .task-column .task button:hover {
 }
 main section.board .task-column .task button:active {
   transform: scale(0.95);
+}
+main section.board .hover-over {
+  border: 2px dashed var(--primary-text-color);
+  scale: 1.03;
 }/*# sourceMappingURL=style.css.map */
