@@ -8,7 +8,57 @@
 </head>
 <body>
     <main>
+        <nav>
+            <div class="nav-left">
+                <h3>Kanban Board</h3>
+            </div>
+            <div class="nav-right">
+                <button id="add">Add new task</button>
+            </div>
+        </nav>
 
+        <section class="board">
+
+            <div class="task-column" id="todo">
+                <div class="heading">
+                    <div class="left">
+                        <h4>To Do</h4>
+                    </div>
+                    <div class="right">
+                        <h4>count</h4>
+                    </div>
+                </div>
+
+                <div draggable="true" class="task">
+                    <h2>Task 1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                    <button>Delete</button>
+                </div>
+            </div>
+
+            <div class="task-column" id="in-progress">
+                <div class="heading">
+                    <div class="left">
+                        <h4>In Progress</h4>
+                    </div>
+                    <div class="right">
+                        <h4>count</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="task-column" id="completed">
+                <div class="heading">
+                    <div class="left">
+                        <h4>Completed</h4>
+                    </div>
+                    <div class="right">
+                        <h4>count</h4>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
 
     <script src="script.js"></script>
