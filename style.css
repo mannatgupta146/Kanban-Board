@@ -232,7 +232,7 @@ main section.board .hover-over {
 }
 
 /* smooth popup animation */
-.modal-content {
+.modal.active, .modal-content {
   animation: modalPop 0.25s ease;
 }
 
