@@ -19,7 +19,7 @@
 
         <section class="board">
 
-            <div class="task-column hover-over" id="todo">
+            <div class="task-column" id="todo">
                 <div class="heading">
                     <div class="left">
                         <h4>To Do</h4>
@@ -60,6 +60,31 @@
 
         </section>
     </main>
+
+    <div class="modal add-new-task">
+
+        <div class="bg"></div>
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h3>Add New Task</h3>
+                <button class="close-modal">&times;</button>
+            </div>
+
+            <div class="modal-body">
+                <label for="task-title">Title</label>
+                <input id="task-title" type="text" placeholder="Enter task title">
+                <label for="task-desc">Description</label>
+                <textarea id="task-desc" placeholder="Enter task description"></textarea>
+            </div>
+
+            <div class="modal-footer">
+                <button id="add-task-btn">Add Task</button>
+            </div>
+
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
